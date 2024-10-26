@@ -43,9 +43,8 @@ A full-stack blog platform where users can create, edit, and delete blog posts. 
    # Create and activate a virtual environment
    python3 -m venv venv
    source venv/bin/activate
-   # On Windows use: 
-   venv\Scripts\activate
-
+   source  ./set_env.sh
+   
    # Install Flask and other dependencies
    pip install -r requirements.txt
    ```
@@ -54,7 +53,9 @@ A full-stack blog platform where users can create, edit, and delete blog posts. 
    - Create a database and update the database URL in the configuration file.
    - Run the Application:
    - initialize the database
-
+	 ```bash
+   python3 ./init_db.py
+   ```
 ## Usage
    - Register a new account or log in with an existing account.
    - Create, edit, and delete blog posts.
