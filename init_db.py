@@ -1,10 +1,10 @@
 #!/usr/bin/python
 """
-This module initializes the HealthQueue application and creates the database tables.
+This module initializes the BlogPlatform application and creates the database tables.
 
 Imports:
     - create_app: Factory function to create and configure the Flask application.
-    - db: Database instance from the HealthQueue application.
+    - db: Database instance from the BlogPlatform application.
 """
 
 from blogpost import create_app, db
